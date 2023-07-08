@@ -99,23 +99,23 @@ const config = {
     },
   ],
 
-  // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
-    {
-      title: '',
-      description:
-        '',
-      imageUrl: '',
-      link: '',
-    },
-    {
-      title: '',
-      description:
-        '',
-      imageUrl: '',
-      link: '',
-    },
-  ],
+  // // To hide the `My Projects` section, keep it empty.
+  // externalProjects: [
+  //   {
+  //     title: '',
+  //     description:
+  //       '',
+  //     imageUrl: '',
+  //     link: '',
+  //   },
+  //   {
+  //     title: '',
+  //     description:
+  //       '',
+  //     imageUrl: '',
+  //     link: '',
+  //   },
+  // ],
 
   // To hide the `Online Courses` section, keep it empty.
   OnlineCourses: [
