@@ -248,11 +248,11 @@ export interface ExternalProjects {
   link: string;
 }
 
-export interface onlineCourses {
-  title: string;
-  date: string; 
-  description: string;
-  link: string;
+export interface OnlineCourses {
+  title?: string;
+  date?: string; 
+  description?: string;
+  link?: string;
 }
 
 export interface Education {
@@ -297,6 +297,11 @@ export interface Config {
    */
   externalProjects?: Array<ExternalProjects>;
 
+  /**
+   * Online Courses
+   */
+  OnlineCourses?: Array<OnlineCourses>;
+  
   /**
    * Certifications list
    */
