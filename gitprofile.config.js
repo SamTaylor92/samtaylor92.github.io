@@ -117,21 +117,118 @@ const config = {
     },
   ],
 
-  // To hide the `My Projects` section, keep it empty.
+  // To hide the `Online Courses` section, keep it empty.
   OnlineCourses: [
     {
-      title: 'example',
-      date: '12 Feb 2022',
+      title: 'Advanced SQL Bootcamp',
+      date: 'June 2023',
       description:
-        'Useful things',
-      link: 'google.com',
+        " - Learn the power of Subqueries in SQL"
+        + " - Discover how to use Window Functions and Partitions in SQL"
+        + " - Understand advanced JOIN commands in SQL"
+        + " - Learn about SQL Set Operations"
+        + " - Discover Grouping Sets"
+        + " - Building table relationships and schema structures in SQL"
+        + " - Use SQL Transactions with Update and Set calls"
+        + " - Understand Table Inheritance with SQL"
+        + " - Create Views in SQL"
+        + " - Learn how to use Stored Procedures"
+        + " - Discover how to use Triggers across SQL Tables"
+        + " - Understand general useful methods and commands in Advanced SQL"
+        ,
+      link: 'https://www.udemy.com/course/advanced-sql-bootcamp/',
     },
     {
-      title: '',
+      title: 'Automate the Boring Stuff with Python Programming',
+      date: 'March 2023',
       description:
-        '',
-      imageUrl: '',
-      link: '',
+        "Automate tasks on the computer by writing simple Python programs."
+        + " - Write programs that can do text pattern recognition with regular expressions."
+        + " - Programmatically generate and update Excel spreadsheets." 
+        + " - Parse PDFs and Word documents."
+        + " - Crawl web sites and pull information from online sources."
+        + " - Write programs that send out email notifications."
+        + " - Use Pythons debugging tools to quickly figure out bugs in your code."
+        + " - Programmatically control the mouse and keyboard to click and type for you."
+        ,
+      link: 'https://www.udemy.com/course/automate/',
+    },
+    {
+      title: 'Python for Time Series Data Analysis',
+      date: 'November 2022',
+      description:
+        "Pandas for Data Manipulation"
+        + " - NumPy and Python for Numerical Processing"
+        + " - Pandas for Data Visualization"
+        + " - How to Work with Time Series Data with Pandas"
+        + " - Use Statsmodels to Analyze Time Series Data"
+        + " - Evaluate a model's efficiency by comparing training and test data"
+        + " - Use Facebook's Prophet Library for forecasting"
+        + " - Understand advanced ARIMA models for Forecasting"
+        ,
+      link: 'https://www.udemy.com/course/python-for-time-series-data-analysis/',
+    },
+    {
+      title: 'Statistics for Data Science and Business Analysis',
+      date: 'October 2022',
+      description:
+        " - Understand the fundamentals of statistics"
+        + " - Learn how to work with different types of data"
+        + " - How to plot different types of data"
+        + " - Calculate the measures of central tendency, asymmetry, and variability"
+        + " - Calculate correlation and covariance"
+        + " - Distinguish and work with different types of distributions"
+        + " - Estimate confidence intervals"
+        + " - Perform hypothesis testing"
+        + " - Make data driven decisions"
+        + " - Understand the mechanics of regression analysis"
+        + " - Carry out regression analysis"
+        + " - Use and understand dummy variables"
+        + " - Understand the concepts needed for data science even with Python and R"
+        ,
+      link: 'https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/',
+    },
+    {
+      title: 'The Complete Pandas Bootcamp 2022: Data Science with Python',
+      date: 'June 2022',
+      description:
+      " - Bring your data handling & data analysis skills to an outstanding level."
+      + " - Master a complete machine learning project A-Z with Pandas, Scikit-Learn, and Seaborn"
+      + " - Practice and master your Pandas skills with quizzes, 150+ exercises, and comprehensive projects"
+      + " - Learn and master the most important Pandas workflows for finance"
+      + " - Learn the basics of Pandas and Numpy coding"
+      + " - Learn and practice all relevant Pandas methods and workflows with real-world datasets"
+      + " - Import, clean, and merge messy data and prepare data for machine learning"
+      + " - Analyze, visualize, and understand your data with Pandas, Matplotlib, and Seaborn"
+      + " - Import financial/stock data from web sources and analyze them with Pandas"
+      + " - Learn and master important statistical concepts with scipy"
+        ,
+      link: 'https://www.udemy.com/course/the-pandas-bootcamp/',
+    },
+    {
+      title: 'SQL Fundamentals Track',
+      date: 'April 2022',
+      description:
+      "Introduction to SQL:"
+      + " - Joining data in SQL"
+      + " - Intermediate SQL"
+      + " - PostgresSQL summary stats and window functions"
+      + " - Functions for Manipulating Data in PostgreSQL"
+        ,
+      link: 'https://www.datacamp.com',
+    },
+    {
+      title: 'The Complete SQL Bootcamp 2022: Go from Zero to Hero',
+      date: 'January 2022',
+      description:
+      " - SQL statement fundamentals (Select, Count, Where, Order by, Limit, In, (I)like)"
+      + " - Group by statements (Group by, Having)"
+      + " - Joins (As statement, Inner joins, Full outer joins, Left outer joins, Right joins, Union)"
+      + " - Advanced SQL commands (Timestamps, extract, mathematical functions, string functions, subquery, self-join)"
+      + " - Creating databases and tables (data types, primary & foreign keys, constraints, create table, insert, update, delete, alter table, drop table, check constraint)"
+      + " - Conditional expressions and procedures (case, coalesce, cast, nullif, views, import, export)"
+        ,
+      link: 'https://www.udemy.com/course/the-complete-sql-bootcamp/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
