@@ -123,18 +123,7 @@ const config = {
       title: '[Jun 2023] Advanced SQL Bootcamp',
       date: 'June 2023',
       description:
-        " - Learn the power of Subqueries in SQL\n \
-        - Discover how to use Window Functions and Partitions in SQL\n \
-        - Understand advanced JOIN commands in SQL\n \
-        - Learn about SQL Set Operations\n \
-        - Discover Grouping Sets\n \
-        - Building table relationships and schema structures in SQL\n \
-        - Use SQL Transactions with Update and Set calls\n \
-        - Understand Table Inheritance with SQL\n \
-        - Create Views in SQL\n \
-        - Learn how to use Stored Procedures\n \
-        - Discover how to use Triggers across SQL Tables\n \
-        - Understand general useful methods and commands in Advanced SQL"
+        " An advanced SQL course covering: subqueries, window functions, partitions, joins, set operations, grouping sets, schema structures, SQL transactions, table inheritance, view, stored procedures and triggers"
         ,
       link: 'https://www.udemy.com/course/advanced-sql-bootcamp/',
     },
@@ -142,14 +131,7 @@ const config = {
       title: '[Mar 2023] Automate the Boring Stuff with Python Programming',
       date: 'March 2023',
       description:
-        "Automate tasks on the computer by writing simple Python programs.\n"
-        + " - Write programs that can do text pattern recognition with regular expressions.\n"
-        + " - Programmatically generate and update Excel spreadsheets.\n" 
-        + " - Parse PDFs and Word documents.\n"
-        + " - Crawl web sites and pull information from online sources.\n"
-        + " - Write programs that send out email notifications.\n"
-        + " - Use Pythons debugging tools to quickly figure out bugs in your code.\n"
-        + " - Programmatically control the mouse and keyboard to click and type for you."
+        "A course that covered 10 projects to automate things in Python, including: text pattern recognisiton (regex), spreadsheet manipulation, PDF and Word doc manipulation, web scraping, emails and debugging"
         ,
       link: 'https://www.udemy.com/course/automate/',
     },
@@ -157,14 +139,7 @@ const config = {
       title: '[Nov 2022] Python for Time Series Data Analysis',
       date: 'November 2022',
       description:
-        "Pandas for Data Manipulation\n"
-        + " - NumPy and Python for Numerical Processing\n"
-        + " - Pandas for Data Visualization\n"
-        + " - How to Work with Time Series Data with Pandas\n"
-        + " - Use Statsmodels to Analyze Time Series Data\n"
-        + " - Evaluate a model's efficiency by comparing training and test data\n"
-        + " - Use Facebook's Prophet Library for forecasting\n"
-        + " - Understand advanced ARIMA models for Forecasting"
+        "Pandas for Data Manipulation, including: NumPy, data vizualisation in Pandas, statsmodels for timeseries, model evaluation, simple forecasting and ARIMA models"
         ,
       link: 'https://www.udemy.com/course/python-for-time-series-data-analysis/',
     },
@@ -172,19 +147,7 @@ const config = {
       title: '[Oct 2022] Statistics for Data Science and Business Analysis',
       date: 'October 2022',
       description:
-        " - Understand the fundamentals of statistics\n"
-        + " - Learn how to work with different types of data\n"
-        + " - How to plot different types of data\n"
-        + " - Calculate the measures of central tendency, asymmetry, and variability\n"
-        + " - Calculate correlation and covariance\n"
-        + " - Distinguish and work with different types of distributions\n"
-        + " - Estimate confidence intervals\n"
-        + " - Perform hypothesis testing\n"
-        + " - Make data driven decisions\n"
-        + " - Understand the mechanics of regression analysis\n"
-        + " - Carry out regression analysis\n"
-        + " - Use and understand dummy variables\n"
-        + " - Understand the concepts needed for data science even with Python and R"
+        "Understand the fundamentals of statistics, including: measures of central tendency, correlation & covariance, different distributions, confidence intervals, hypothesis testing, regression analysis, dummy variables"
         ,
       link: 'https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/',
     },
@@ -192,16 +155,7 @@ const config = {
       title: '[Jun 2022] The Complete Pandas Bootcamp 2022: Data Science with Python',
       date: 'June 2022',
       description:
-      " - Bring your data handling & data analysis skills to an outstanding level.\n"
-      + " - Master a complete machine learning project A-Z with Pandas, Scikit-Learn, and Seaborn\n"
-      + " - Practice and master your Pandas skills with quizzes, 150+ exercises, and comprehensive projects\n"
-      + " - Learn and master the most important Pandas workflows for finance\n"
-      + " - Learn the basics of Pandas and Numpy coding\n"
-      + " - Learn and practice all relevant Pandas methods and workflows with real-world datasets\n"
-      + " - Import, clean, and merge messy data and prepare data for machine learning\n"
-      + " - Analyze, visualize, and understand your data with Pandas, Matplotlib, and Seaborn\n"
-      + " - Import financial/stock data from web sources and analyze them with Pandas\n"
-      + " - Learn and master important statistical concepts with scipy"
+      "A-Z of Pandas, Scikit-Learn, NumPy and Seaborn, including: data cleaning, data vizualisation, statistics and project-based work"
         ,
       link: 'https://www.udemy.com/course/the-pandas-bootcamp/',
     },
@@ -209,11 +163,7 @@ const config = {
       title: '[Apr 2022] SQL Fundamentals Track',
       date: 'April 2022',
       description:
-      "Introduction to SQL:\n"
-      + " - Joining data in SQL\n"
-      + " - Intermediate SQL\n"
-      + " - PostgresSQL summary stats and window functions\n"
-      + " - Functions for Manipulating Data in PostgreSQL"
+      "Introduction to (Postgres)SQL, including: joining data, summary stats, window functions and functions"
         ,
       link: 'https://www.datacamp.com',
     },
@@ -221,14 +171,9 @@ const config = {
       title: '[Jan 2022] The Complete SQL Bootcamp 2022: Go from Zero to Hero',
       date: 'January 2022',
       description:
-      " - SQL statement fundamentals (Select, Count, Where, Order by, Limit, In, (I)like)\n"
-      + " - Group by statements (Group by, Having)\n"
-      + " - Joins (As statement, Inner joins, Full outer joins, Left outer joins, Right joins, Union)\n"
-      + " - Advanced SQL commands (Timestamps, extract, mathematical functions, string functions, subquery, self-join)\n"
-      + " - Creating databases and tables (data types, primary & foreign keys, constraints, create table, insert, update, delete, alter table, drop table, check constraint)\n"
-      + " - Conditional expressions and procedures (case, coalesce, cast, nullif, views, import, export)"
-        ,
-      link: 'https://www.udemy.com/course/the-complete-sql-bootcamp/',
+      " SQL statement fundamentals (Select, Count, Where, Order by, Limit, In, (I)like), group bys, joins, functions, string-functions, creating databases, conditional expressions (case when, coalesce, nullif, etc.)
+      ,
+        link: 'https://www.udemy.com/course/the-complete-sql-bootcamp/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
