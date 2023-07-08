@@ -116,6 +116,25 @@ const config = {
       link: '',
     },
   ],
+
+  // To hide the `My Projects` section, keep it empty.
+  onlineCourses: [
+    {
+      title: 'example',
+      date: '12 Feb 2022',
+      description:
+        'Useful things',
+      imageUrl: '',
+      link: 'google.com',
+    },
+    {
+      title: '',
+      description:
+        '',
+      imageUrl: '',
+      link: '',
+    },
+  ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
