@@ -118,7 +118,7 @@ const config = {
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  onlineCourses: [
+  OnlineCourses: [
     {
       title: 'example',
       date: '12 Feb 2022',
