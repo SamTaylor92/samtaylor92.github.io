@@ -248,6 +248,13 @@ export interface ExternalProjects {
   link: string;
 }
 
+export interface onlineCourses {
+  title: string;
+  date: string; 
+  description: string;
+  link: string;
+}
+
 export interface Education {
   institution?: string;
   degree?: string;
