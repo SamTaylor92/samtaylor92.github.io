@@ -124,16 +124,16 @@ const config = {
       date: 'June 2023',
       description:
         " - Learn the power of Subqueries in SQL\n"
-        + " - Discover how to use Window Functions and Partitions in SQL\n"
-        + " - Understand advanced JOIN commands in SQL\n"
-        + " - Learn about SQL Set Operations\n"
+        + " - Discover how to use Window Functions and Partitions in SQL\n \"
+        + " - Understand advanced JOIN commands in SQL\n \"
+        + " - Learn about SQL Set Operations\n \"
         + " - Discover Grouping Sets\n"
-        + " - Building table relationships and schema structures in SQL\n"
-        + " - Use SQL Transactions with Update and Set calls\n"
-        + " - Understand Table Inheritance with SQL\n"
-        + " - Create Views in SQL\n"
-        + " - Learn how to use Stored Procedures\n"
-        + " - Discover how to use Triggers across SQL Tables\n"
+        + " - Building table relationships and schema structures in SQL\n \"
+        + " - Use SQL Transactions with Update and Set calls\n \"
+        + " - Understand Table Inheritance with SQL\n \"
+        + " - Create Views in SQL\n \"
+        + " - Learn how to use Stored Procedures\n \"
+        + " - Discover how to use Triggers across SQL Tables\n \"
         + " - Understand general useful methods and commands in Advanced SQL"
         ,
       link: 'https://www.udemy.com/course/advanced-sql-bootcamp/',
