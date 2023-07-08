@@ -171,7 +171,7 @@ const config = {
       title: '[Jan 2022] The Complete SQL Bootcamp 2022: Go from Zero to Hero',
       date: 'January 2022',
       description:
-      " SQL statement fundamentals (Select, Count, Where, Order by, Limit, In, (I)like), group bys, joins, functions, string-functions, creating databases, conditional expressions (case when, coalesce, nullif, etc.)
+      " SQL statement fundamentals (Select, Count, Where, Order by, Limit, In, (I)like), group bys, joins, functions, string-functions, creating databases, conditional expressions (case when, coalesce, nullif, etc.)"
       ,
         link: 'https://www.udemy.com/course/the-complete-sql-bootcamp/',
     },
