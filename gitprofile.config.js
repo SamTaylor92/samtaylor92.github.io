@@ -3,65 +3,77 @@
 const config = {
   github: {
     username: 'samtaylor92', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    sortBy: 'updated', // stars | updated
+    limit: 5, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      forks: true, // Forked projects will not be displayed if set to true.
+      projects: ['samtaylor92.github.io','SamTaylor92'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'samjamest',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://samtaylor92.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'samtaylor92@live.co.uk',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:bbe54676-e2ea-3720-8a0c-e186ade9f65f', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'SQL',
+    'Python',
+    'Databricks',
+    'Looker',
+    'Google Sheets',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'GetYourGuide',
+      position: 'Operations Analyst',
+      from: 'November 2021',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://getyourguide.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'GetYourGuide',
+      position: 'Quality Manager',
+      from: 'January 2021',
+      to: 'November 2021',
+      companyLink: 'https://getyourguide.com',
+    },
+    {
+      company: 'GetYourGuide',
+      position: 'Team Leader (Customer Service)',
+      from: 'October 2019',
+      to: 'January 2021',
+      companyLink: 'https://getyourguide.com',
+    },
+    {
+      company: 'GetYourGuide',
+      position: 'Trainer',
+      from: 'September 2017',
+      to: 'October 2019',
+      companyLink: 'https://getyourguide.com',
+    },
+    {
+      company: 'GetYourGuide',
+      position: 'Customer Service Agent',
+      from: 'April 2017',
+      to: 'September 2017',
+      companyLink: 'https://getyourguide.com',
     },
   ],
   /* certifications: [
@@ -74,15 +86,15 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'University of Cumbria',
+      degree: 'Post-graduate Certificate of Education (PGCE) Secondary Spanish & French',
       from: '2015',
-      to: '2019',
+      to: '2016',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
+      institution: 'Lancaster University',
+      degree: '(BA Hons) English Language & Spanish',
+      from: '2010',
       to: '2014',
     },
   ],
@@ -90,24 +102,24 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        '',
+      imageUrl: '',
+      link: '',
     },
     {
-      title: 'Project Name',
+      title: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        '',
+      imageUrl: '',
+      link: '',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -123,7 +135,7 @@ const config = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -180,7 +192,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/SamTaylor92"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
