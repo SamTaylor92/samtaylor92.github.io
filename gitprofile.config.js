@@ -124,7 +124,6 @@ const config = {
       date: '12 Feb 2022',
       description:
         'Useful things',
-      imageUrl: '',
       link: 'google.com',
     },
     {
