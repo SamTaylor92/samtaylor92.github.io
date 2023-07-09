@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:bbe54676-e2ea-3720-8a0c-e186ade9f65f', // Empty fileUrl will hide the `Download Resume` button.
+      'https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A6c49b746-234f-3b0e-b83a-24d4b9e5f368&viewer%21megaVerb=group-discover', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'SQL',
@@ -49,7 +49,7 @@ const config = {
     },
     {
       company: 'GetYourGuide',
-      position: 'Quality Manager',
+      position: 'Quality Assurance Manager',
       from: 'January 2021',
       to: 'November 2021',
       companyLink: 'https://getyourguide.com',
