@@ -126,7 +126,7 @@ const config = {
         " An advanced SQL course covering: subqueries, window functions, partitions, joins, set operations, grouping sets, schema structures, SQL transactions, table inheritance, view, stored procedures and triggers"
         ,
       link: 'https://www.udemy.com/course/advanced-sql-bootcamp/',
-      imageUrl: "https://www.udemy.com/certificate/UC-d7a7394e-40ed-441d-b79e-f78a3c579428/"
+      imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-d7a7394e-40ed-441d-b79e-f78a3c579428.jpg?v=1687092434000"
     },
     {
       title: '[Mar 2023] Automate the Boring Stuff with Python Programming',
