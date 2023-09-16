@@ -253,6 +253,7 @@ export interface OnlineCourses {
   date?: string; 
   description?: string;
   link?: string;
+  imageUrl?: string;
 }
 
 export interface Education {
