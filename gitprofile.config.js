@@ -19,7 +19,7 @@ const config = {
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: '@SamTaylor92',
+    medium: 'SamTaylor92',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
