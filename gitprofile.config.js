@@ -171,7 +171,7 @@ const config = {
       "Introduction to (Postgres)SQL, including: joining data, summary stats, window functions and functions"
         ,
       link: 'https://www.datacamp.com/statement-of-accomplishment/course/e2de6b8582aa42c63dae25e27e81fb82b2a2f02f?raw=1',
-      imageUrl: 'https://lowendbox.com/wp-content/uploads/2022/10/postgresql15.jpg'
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_y9lJYyBNc4xIQ4jI9Rque5mlMHi02qtFZ5IALdBO-UOuygw0UbnHPRJ9Fv12FWhRGo&usqp=CAU'
     },
     {
       title: '[Jan 2022] The Complete SQL Bootcamp 2022: Go from Zero to Hero',
@@ -180,7 +180,7 @@ const config = {
       "SQL statement fundamentals (Select, Count, Where, Order by, Limit, In, (I)like), group bys, joins, functions, string-functions, creating databases, conditional expressions (case when, coalesce, nullif, etc.)"
       ,
       link: 'https://www.udemy.com/certificate/UC-2e082714-0c0d-42f6-9716-7ecad3757d27/',
-      imageUrl: 'https://lowendbox.com/wp-content/uploads/2022/10/postgresql15.jpg'
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUl65WtrQKFAtEeXbpu8zYXZj2xzb6MKFVwQ9ritJlUkjzd27U5eRDdzmxF3kj1Zjq_0I&usqp=CAU'
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
