@@ -162,7 +162,7 @@ const config = {
       "A-Z of Pandas, Scikit-Learn, NumPy and Seaborn, including: data cleaning, data vizualisation, statistics and project-based work"
         ,
       link: 'https://www.udemy.com/certificate/UC-324e44ee-91a8-4108-bb8e-66ada008eb2f/',
-      imageUrl: 'https://codernet.ru/assets/components/phpthumbof/cache/1200px-Pandas_logo.svg.ebebc034c1b1031321f8e6280e67c873.png'
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/274px-Pandas_mark.svg.png'
     },
     {
       title: '[Apr 2022] SQL Fundamentals Track',
