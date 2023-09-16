@@ -125,8 +125,8 @@ const config = {
       description:
         " An advanced SQL course covering: subqueries, window functions, partitions, joins, set operations, grouping sets, schema structures, SQL transactions, table inheritance, view, stored procedures and triggers"
         ,
-      link: 'https://www.udemy.com/course/advanced-sql-bootcamp/',
-      imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-d7a7394e-40ed-441d-b79e-f78a3c579428.jpg?v=1687092434000"
+      link: "https://www.udemy.com/certificate/UC-d7a7394e-40ed-441d-b79e-f78a3c579428/",
+      imageUrl: 'https://lowendbox.com/wp-content/uploads/2022/10/postgresql15.jpg'
     },
     {
       title: '[Mar 2023] Automate the Boring Stuff with Python Programming',
@@ -134,7 +134,8 @@ const config = {
       description:
         "A course that covered 10 projects to automate things in Python, including: text pattern recognisiton (regex), spreadsheet manipulation, PDF and Word doc manipulation, web scraping, emails and debugging"
         ,
-      link: 'https://www.udemy.com/course/automate/',
+      link: 'https://www.udemy.com/certificate/UC-48a49643-819e-4ed4-a2e9-ad7f90be6d3d/',
+      imageURL: 'https://img-c.udemycdn.com/course/750x422/2271214_c9ab_2.jpg'
     },
     {
       title: '[Nov 2022] Python for Time Series Data Analysis',
@@ -143,6 +144,7 @@ const config = {
         "Pandas for Data Manipulation, including: NumPy, data vizualisation in Pandas, statsmodels for timeseries, model evaluation, simple forecasting and ARIMA models"
         ,
       link: 'https://www.udemy.com/course/python-for-time-series-data-analysis/',
+      imageURL: 'https://coralogix.com/wp-content/uploads/2021/09/Relative-graphs-1000X1000.png'
     },
     {
       title: '[Oct 2022] Statistics for Data Science and Business Analysis',
@@ -150,7 +152,8 @@ const config = {
       description:
         "Understand the fundamentals of statistics, including: measures of central tendency, correlation & covariance, different distributions, confidence intervals, hypothesis testing, regression analysis, dummy variables"
         ,
-      link: 'https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/',
+      link: 'https://www.udemy.com/certificate/UC-f4313a60-ed04-433c-842e-5bfbb72928d2/',
+      imageURL: 'https://cdn-icons-png.flaticon.com/512/2672/2672346.png'
     },
     {
       title: '[Jun 2022] The Complete Pandas Bootcamp 2022: Data Science with Python',
@@ -158,7 +161,8 @@ const config = {
       description:
       "A-Z of Pandas, Scikit-Learn, NumPy and Seaborn, including: data cleaning, data vizualisation, statistics and project-based work"
         ,
-      link: 'https://www.udemy.com/course/the-pandas-bootcamp/',
+      link: 'https://www.udemy.com/certificate/UC-324e44ee-91a8-4108-bb8e-66ada008eb2f/',
+      imageURL: 'https://codernet.ru/assets/components/phpthumbof/cache/1200px-Pandas_logo.svg.ebebc034c1b1031321f8e6280e67c873.png'
     },
     {
       title: '[Apr 2022] SQL Fundamentals Track',
@@ -166,7 +170,8 @@ const config = {
       description:
       "Introduction to (Postgres)SQL, including: joining data, summary stats, window functions and functions"
         ,
-      link: 'https://www.datacamp.com',
+      link: 'https://www.datacamp.com/statement-of-accomplishment/course/e2de6b8582aa42c63dae25e27e81fb82b2a2f02f?raw=1',
+      imageURL: 'https://lowendbox.com/wp-content/uploads/2022/10/postgresql15.jpg'
     },
     {
       title: '[Jan 2022] The Complete SQL Bootcamp 2022: Go from Zero to Hero',
@@ -174,7 +179,8 @@ const config = {
       description:
       "SQL statement fundamentals (Select, Count, Where, Order by, Limit, In, (I)like), group bys, joins, functions, string-functions, creating databases, conditional expressions (case when, coalesce, nullif, etc.)"
       ,
-        link: 'https://www.udemy.com/course/the-complete-sql-bootcamp/',
+        link: 'https://www.udemy.com/certificate/UC-2e082714-0c0d-42f6-9716-7ecad3757d27/',
+        imageURL: 'https://lowendbox.com/wp-content/uploads/2022/10/postgresql15.jpg'
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
