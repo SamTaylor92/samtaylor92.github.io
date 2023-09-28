@@ -76,14 +76,50 @@ const config = {
       companyLink: 'https://getyourguide.com',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Advanced SQL Bootcamp',
+      body: 'An advanced SQL course covering: subqueries, window functions, partitions, joins, set operations, grouping sets, schema structures, SQL transactions, table inheritance, view, stored procedures and triggers',
+      year: 'June 2023',
+      link: 'https://www.udemy.com/certificate/UC-d7a7394e-40ed-441d-b79e-f78a3c579428/'
     },
-  ], */
+    {
+      name: 'Automate the Boring Stuff with Python Programming',
+      body: 'A course that covered 10 projects to automate things in Python, including: text pattern recognisiton (regex), spreadsheet manipulation, PDF and Word doc manipulation, web scraping, emails and debugging',
+      year: 'March 2023',
+      link: 'https://www.udemy.com/certificate/UC-48a49643-819e-4ed4-a2e9-ad7f90be6d3d/'
+    },
+    {
+      name: 'Python for Time Series Data Analysis',
+      body: 'Pandas for Data Manipulation, including: NumPy, data vizualisation in Pandas, statsmodels for timeseries, model evaluation, simple forecasting and ARIMA models',
+      year: 'November 2022',
+      link: 'https://www.udemy.com/course/python-for-time-series-data-analysis/'
+    },
+    {
+      name: 'Statistics for Data Science and Business Analysis',
+      body: 'Understand the fundamentals of statistics, including: measures of central tendency, correlation & covariance, different distributions, confidence intervals, hypothesis testing, regression analysis, dummy variables',
+      year: 'October 2022',
+      link: 'https://www.udemy.com/certificate/UC-f4313a60-ed04-433c-842e-5bfbb72928d2/'
+    },
+    {
+      name: 'The Complete Pandas Bootcamp 2022: Data Science with Python',
+      body: 'A-Z of Pandas, Scikit-Learn, NumPy and Seaborn, including: data cleaning, data vizualisation, statistics and project-based work',
+      year: 'June 2022',
+      link: 'https://www.udemy.com/certificate/UC-324e44ee-91a8-4108-bb8e-66ada008eb2f/'
+    },
+    {
+      name: 'SQL Fundamentals Track',
+      body: 'Introduction to (Postgres)SQL, including: joining data, summary stats, window functions and functions',
+      year: 'April 2022',
+      link: 'https://www.datacamp.com/statement-of-accomplishment/course/e2de6b8582aa42c63dae25e27e81fb82b2a2f02f?raw=1'
+    },
+    {
+      name: 'The Complete SQL Bootcamp 2022: Go from Zero to Hero',
+      body: 'SQL statement fundamentals (select, count, where, order by, limit, (not) in, (i)like) • Group By • Joins • Functions • String functions • Creating databases • Conditional expressions (case when, coalesce, nullif)',
+      year: 'January 2022',
+      link: 'https://www.udemy.com/certificate/UC-2e082714-0c0d-42f6-9716-7ecad3757d27/'
+    },
+  ],
   education: [
     {
       institution: 'University of Cumbria',
@@ -123,7 +159,7 @@ const config = {
       title: '[Jun 2023] Advanced SQL Bootcamp',
       date: 'June 2023',
       description:
-        " An advanced SQL course covering: subqueries, window functions, partitions, joins, set operations, grouping sets, schema structures, SQL transactions, table inheritance, view, stored procedures and triggers"
+        "An advanced SQL course covering: subqueries, window functions, partitions, joins, set operations, grouping sets, schema structures, SQL transactions, table inheritance, view, stored procedures and triggers"
         ,
       link: "https://www.udemy.com/certificate/UC-d7a7394e-40ed-441d-b79e-f78a3c579428/",
       imageUrl: 'https://lowendbox.com/wp-content/uploads/2022/10/postgresql15.jpg'
