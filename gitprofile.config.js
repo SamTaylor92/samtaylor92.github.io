@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A6c49b746-234f-3b0e-b83a-24d4b9e5f368&viewer%21megaVerb=group-discover', // Empty fileUrl will hide the `Download Resume` button.
+      'https://acrobat.adobe.com/id/urn:aaid:sc:EU:d9b989ef-4678-4261-9404-64412eb5fd51', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'SQL',
