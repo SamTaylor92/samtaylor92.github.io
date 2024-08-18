@@ -162,6 +162,15 @@ const config = {
   // To hide the `Online Courses` section, keep it empty.
   OnlineCourses: [
     {
+      title: '[Aug 2024] Practical Database Design',
+      date: 'Aug 2024',
+      description:
+        "An advanced SQL course covering: subqueries, window functions, partitions, joins, set operations, grouping sets, schema structures, SQL transactions, table inheritance, view, stored procedures and triggers"
+        ,
+      link: "https://www.udemy.com/certificate/UC-7d158d2c-31a3-4c13-a21c-d02b4c925033/",
+      imageUrl: 'https://png.pngtree.com/png-vector/20190401/ourlarge/pngtree-database-icon-design--essential-icon-vector-design-png-image_902388.jpg'
+    }
+    {
       title: '[Jun 2023] Advanced SQL Bootcamp',
       date: 'June 2023',
       description:
