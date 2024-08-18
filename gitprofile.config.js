@@ -78,6 +78,12 @@ const config = {
   ],
   certifications: [
     {
+      name: 'Practical Database Design',
+      body: 'The course covered database design fundamentals, including requirements analysis, entity-attribute identification, normalization (1NF, 2NF, 3NF), key selection, relationship modeling, and practical application to web development scenarios.',
+      year: 'Aug 2024',
+      link: 'https://www.udemy.com/certificate/UC-7d158d2c-31a3-4c13-a21c-d02b4c925033/'
+    },
+    {
       name: 'Advanced SQL Bootcamp',
       body: 'An advanced SQL course covering: subqueries, window functions, partitions, joins, set operations, grouping sets, schema structures, SQL transactions, table inheritance, view, stored procedures and triggers',
       year: 'June 2023',
