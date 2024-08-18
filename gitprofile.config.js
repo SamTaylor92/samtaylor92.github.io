@@ -169,7 +169,7 @@ const config = {
         ,
       link: "https://www.udemy.com/certificate/UC-7d158d2c-31a3-4c13-a21c-d02b4c925033/",
       imageUrl: 'https://png.pngtree.com/png-vector/20190401/ourlarge/pngtree-database-icon-design--essential-icon-vector-design-png-image_902388.jpg'
-    }
+    },
     {
       title: '[Jun 2023] Advanced SQL Bootcamp',
       date: 'June 2023',
