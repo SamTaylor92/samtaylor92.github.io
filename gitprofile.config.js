@@ -33,37 +33,55 @@ const config = {
       'https://acrobat.adobe.com/id/urn:aaid:sc:EU:d9b989ef-4678-4261-9404-64412eb5fd51', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'SQL',
-    'Python',
-    'Databricks',
-    'Looker',
-    'Google Sheets',
+      'Python',
+      'SQL',
+      'dbt',
+      'Apache Spark',
+      'Databricks',
+      'Delta Lake',
+      'LookML',
+      'Looker',
+      'Google Sheets',
   ],
   experiences: [
     {
       company: 'GetYourGuide',
-      position: 'Operations Analyst',
-      from: 'November 2021',
+      position: 'Associate Data Engineer',
+      from: 'July 2025',
       to: 'Present',
+      companyLink: 'https://getyourguide.com',
+    },
+    {
+      company: 'GetYourGuide',
+      position: 'Senior Operations Analyst',
+      from: 'January 2025',
+      to: 'July 2025',
+      companyLink: 'https://getyourguide.com',
+    },
+    {
+      company: 'GetYourGuide',
+      position: 'Operations Analyst',
+      from: 'December 2021',
+      to: 'January 2025',
       companyLink: 'https://getyourguide.com',
     },
     {
       company: 'GetYourGuide',
       position: 'Quality Assurance Manager',
       from: 'January 2021',
-      to: 'November 2021',
+      to: 'December 2021',
       companyLink: 'https://getyourguide.com',
     },
     {
       company: 'GetYourGuide',
-      position: 'Team Leader (Customer Service)',
+      position: 'Team Lead',
       from: 'October 2019',
       to: 'January 2021',
       companyLink: 'https://getyourguide.com',
     },
     {
       company: 'GetYourGuide',
-      position: 'Trainer',
+      position: 'Corporate Trainer',
       from: 'September 2017',
       to: 'October 2019',
       companyLink: 'https://getyourguide.com',
@@ -72,10 +90,10 @@ const config = {
       company: 'GetYourGuide',
       position: 'Customer Service Agent',
       from: 'April 2017',
-      to: 'September 2017',
+      to: 'August 2017',
       companyLink: 'https://getyourguide.com',
     },
-  ],
+],
   certifications: [
     {
       name: 'Practical Database Design',
@@ -127,18 +145,24 @@ const config = {
     },
   ],
   education: [
-    {
-      institution: 'University of Cumbria',
-      degree: 'Post-graduate Certificate of Education (PGCE) Secondary Spanish & French',
-      from: '2015',
-      to: '2016',
-    },
-    {
-      institution: 'Lancaster University',
-      degree: '(BA Hons) English Language & Spanish',
-      from: '2010',
-      to: '2014',
-    },
+      {
+        institution: 'University of Cumbria',
+        degree: 'PGCE — Secondary Modern Foreign Languages (Spanish & French) with Qualified Teacher Status',
+        from: '2015',
+        to: '2016',
+      },
+      {
+        institution: 'University of Hull',
+        degree: 'Subject Knowledge Enhancement (SKE) — French',
+        from: '2015',
+        to: '2015',
+      },
+      {
+        institution: 'Lancaster University',
+        degree: 'BA (Hons) Spanish & Linguistics',
+        from: '2010',
+        to: '2014',
+      },
   ],
 
   // // To hide the `My Projects` section, keep it empty.
@@ -249,7 +273,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'lofi',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
